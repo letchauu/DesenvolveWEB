@@ -101,7 +101,7 @@ body {
     display: block;
     transform: translateY(63px);
 }
-/* ------- SOBRE -------*/
+/* ------- SOBRE ------- */
 #sobre {
     background-color: var(--bg-cinza-claro);
     padding: 50px 0;
@@ -120,7 +120,7 @@ body {
 #sobre img {
     margin-left: 15%;
 }
-/*--------CLIENTES---------*/
+/* ------- CLIENTES ------- */
 #clientes {
     margin: 50px 0;
 }
@@ -131,17 +131,17 @@ body {
 .clientes img {
     height: 60px;
     width: 60px;
-    border-radius: 50%; /*arredondamento da foto */
+    border-radius: 50%; /* arredondamento da foto */
     margin: 0 10px;
 }
 .cargo-cliente {
     display: inline-block;
     font-size: 12px;
 }
-/*----------REDES SOCIAIS----------*/
+/* ------- REDES SOCIAIS ------- */
 #social {
     background-color: var(--bg-cinza-claro);
-    padding: 50px;
+    padding: 50px 0;
 }
 .social-ico img {
     width: 60px;
@@ -150,3 +150,54 @@ body {
 .social-ico a:hover img {
     transform: translateY(-10px);
 }
+/* ------- RODAPE ------- */
+#rodape {
+    background-image: linear-gradient(to right, var(--bg-nave-Bar-roxo-claro), var(--bg-nave-Bar-roxo-escuro));
+    color: var(--branco);
+}
+.rodape-img {
+    width: 100%;
+}
+.col-md-4.rodape-caixa {
+    padding: 50px 30px;
+    margin: 0;
+}
+.rodape-caixa img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+.rodape-caixa .bi {
+    margin-right: 8px;
+    font-size: 25px;
+    width: 25px;
+}
+.rodape-caixa .formulario {
+    box-shadow: none;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.rodape-caixa .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--bg-nave-Bar-roxo-claro), var(--bg-nave-Bar-roxo-escuro));
+}
+.copy {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, var (--bg-nave-Bar-roxo-claro)), var(--bg-nave-Bar-roxo-escuro);
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copy .bi {
+    color: var(--vermelho);
+}
+
+
