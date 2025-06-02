@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+:root {
+    background-image: linear-gradient(to right, #03588C, rgba(3,88,140,0.2));
+}
+.navbar-brand img {
+    height: 20px;
+}
+#barra-nav {
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+/* #navbarNav {
+    position: absolute;
+} */
+.navbar {
+    padding: 0 10px;
+    display: block;
+    text-align: right;
+    height: 100%;
+}
+
+
+    
+    
