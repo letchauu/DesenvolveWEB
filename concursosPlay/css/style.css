@@ -2,7 +2,43 @@
     height: 80%;
     width: 80%;
 }
-.d-flex {
-    padding-right: 300px;
+.homem1 img {
+    padding: 100px;
+    margin-left: -50px;
+    height: 800px;
 
 }
+.texto-com-fundo {
+    background-color: #f2e9ce;
+    border-radius: 30px;
+    padding: 10px;
+    display:inline-block;
+    margin-inline: 380px;
+    color: #ff6b00;
+}
+.d-flex {
+    height: 100%;
+}
+.menu-topo {
+    position: fixed;
+    top: 0;
+    left: 250;
+    right: 0;
+    z-index: 1030;
+    /*background-color: #226eb9;*/
+    padding: 10px 20px;
+    margin-top: -250px;
+    margin-right: 200px;
+
+}
+.menu-topo .dropdown {
+    margin-right: 100px; 
+}
+body {
+    padding-top: 70px;
+}
+body {
+    background-color: #1e2a38;
+    background: linear-gradient(135deg, #1e2a38, #7c4c0d );
+}
+/*lembrar de mudar as cores dos botões*/
