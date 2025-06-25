@@ -8,7 +8,7 @@
 <body>
     <?php
     /* Ex. 3 - Crie um scrip PHP que declare duas variáveis de string, $primeironome e $segundonome. Concatene essas variáveis para formar o nome completo e exiba o resultado.*/ 
-    $traço =
+    $traco =
     "<br>==============================================================<br>";
     $primeiroNome = "Maria";
     $segundoNome = "do Bairro";
@@ -16,7 +16,7 @@
     $nomeCompleto = $primeiroNome. "&nbsp;".$segundoNome;
 
     echo "Nome completo: $nomeCompleto";
-    echo $traço;
+    echo $traco;
     
     /*==============Variáveis de Atribuição==============*/
 
@@ -41,7 +41,7 @@
     echo "Valor da variável após o incremento: $numero<br>";
     $numero--;
     echo "Valor da variável após o decremento: $numero<br>";
-    echo $traço;
+    echo $traco;
     echo "Exemplo de troca de valores com variáveis<br>";
 $a = 10;
 $b = 20;
@@ -54,6 +54,20 @@ $b = $a -$b;
 $a -=$b; /* $a = $a - $b*/
 
 echo "Valores trocados: a = $a, b = $b";
+echo $traco;
+        echo "Exemplo de resto da divisão<br>";
+        $divisor = 20;
+        $quociente = 2;
+        $resto = $divisor % $quociente;
+        echo "O resto da divisão de $divisor por $quociente é: $resto";
+        echo $traco;
+
+        echo "Exemplo de operador de potenciação<br>";
+        $base = 2;
+        $expoente = 3;
+        $potencia = $base ** $expoente;
+        echo "$base elevado a $expoente é: $potencia";
+        echo $traco;
 
     ?>
     </body>
